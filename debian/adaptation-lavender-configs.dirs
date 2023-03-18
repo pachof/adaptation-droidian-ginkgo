@@ -6,4 +6,4 @@
 /usr/share/keyrings
 /etc/systemd/system/bluebinder.service.d
 /var/lib/batman
-/var/lib/droidian
+/usr/lib/droidian/device

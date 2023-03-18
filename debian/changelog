@@ -1,6 +1,6 @@
-adaptation-droidian-lavender (0.0.0+git2023030320062339.bbad3f7.main) main; urgency=medium
+adaptation-droidian-lavender (0.0.0+git2023031920062339.60a05f7.main) main; urgency=medium
 
-  * set GPUSAVE to false by default as it doesn't work on lavender
+  * move over files from var/lib to usr/lib/droidian/device
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 03 Mar 2023 16:06:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 00:16:16 +0330
 
