@@ -4,6 +4,7 @@
 /etc/systemd/system/phosh.service.d
 /usr/bin
 /usr/share/keyrings
+/usr/share/glib-2.0/schemas
 /etc/systemd/system/bluebinder.service.d
 /var/lib/batman
 /usr/lib/droidian/device

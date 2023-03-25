@@ -12,6 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
          adaptation-lavender-configs,
+         wlr-randr,
 Description: adapatation-lavender-meta
  lavender api28 adaptation metapackage
 

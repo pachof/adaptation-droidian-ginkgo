@@ -1,6 +1,6 @@
-adaptation-droidian-lavender (0.0.0+git2023032120062339.7986077.main) main; urgency=medium
+adaptation-droidian-lavender (0.0.0+git2023032529318330.124b1d0.main) main; urgency=medium
 
-  * add wlr-randr as a dependency
+  * disable suspend as its broken
 
- -- fakeshell <fakeshell@bardia.tech>  Tue, 21 Mar 2023 22:46:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sat, 25 Mar 2023 07:46:16 +0330
 
