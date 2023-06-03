@@ -4,14 +4,15 @@ Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian-lavender/adaptation-droidian-lavender
-Vcs-Git: https://github.com/droidian-lavender/adaptation-droidian-lavender.git
+Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-lavender
+Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-lavender.git
 
 Package: adaptation-droidian-lavender
 Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
          adaptation-lavender-configs,
+         linux-bootimage-xiaomi-lavender,
          wlr-randr,
 Description: adapatation-lavender-meta
  lavender api28 adaptation metapackage

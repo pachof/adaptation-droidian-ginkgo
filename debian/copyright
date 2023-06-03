@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: adaptation-droidian-lavender
-Source: https://github.com/droidian-lavender/adaptation-droidian-lavender
+Source: https://github.com/droidian-devices/adaptation-droidian-lavender
 
 Files: *
 Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
