@@ -6,3 +6,5 @@
 /etc/systemd/system/bluebinder.service.d
 /usr/lib/adaptation-droidian-lavender/batman
 /usr/lib/droidian/device
+/usr/lib/systemd/user
+/opt/droidian-sysfs-torch/bin
