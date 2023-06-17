@@ -14,6 +14,7 @@ Depends: ${misc:Depends},
          adaptation-lavender-configs,
          linux-bootimage-xiaomi-lavender,
          batman,
+         ofono-config-ril-binder-single-sim-sim2,
 Description: adapatation-lavender-meta
  lavender api28 adaptation metapackage
 
