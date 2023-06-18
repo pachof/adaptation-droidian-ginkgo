@@ -6,4 +6,3 @@
 /etc/systemd/system/bluebinder.service.d
 /usr/lib/droidian/device
 /usr/lib/systemd/user
-/opt/droidian-sysfs-torch/bin
