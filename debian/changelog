@@ -1,6 +1,76 @@
-adaptation-droidian-lavender (0.0.0+git2023032529318330.124b1d0.main) main; urgency=medium
+adaptation-droidian-lavender (8+git20230801203730.422d5f8.release) trixie; urgency=medium
 
+  [ Bardia Moshiri ]
+  * debian: add droidian-camera to meta
+
+  [ Eugenio Paolantonio (g7) ]
+  * [skip ci] Move to Droidian rolling
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Tue, 01 Aug 2023 20:37:30 -0400
+
+adaptation-droidian-lavender (7) bookworm; urgency=medium
+
+  * Remove droidian-sysfs-torch
+
+ -- Erik Inkinen <erik.inkinen@erikinkinen.fi>  Mon, 19 Jun 2023 00:50:30 +0300
+
+adaptation-droidian-lavender (6) bookworm; urgency=medium
+
+  * [debian] Drop batman as it is a part of droidian-meta
+
+ -- Erik Inkinen <erik.inkinen@erikinkinen.fi>  Sat, 17 Jun 2023 13:09:25 +0300
+
+adaptation-droidian-lavender (5) bookworm; urgency=medium
+
+  * [debian] Depend on ofono-config-ril-binder-single-sim-sim2
+
+ -- Erik Inkinen <erik.inkinen@erikinkinen.fi>  Sat, 17 Jun 2023 12:32:09 +0300
+
+adaptation-droidian-lavender (4) bookworm; urgency=medium
+
+  * drop leftovers of batman
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Thu, 08 Jun 2023 23:06:06 -0400
+
+adaptation-droidian-lavender (3) bookworm; urgency=medium
+
+  * drop custom batman configuration
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Thu, 08 Jun 2023 22:15:20 -0400
+
+adaptation-droidian-lavender (2) bookworm; urgency=medium
+
+  * add batman as a dependency
+  * add torch binary
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Thu, 08 Jun 2023 22:05:31 -0400
+
+adaptation-droidian-lavender (1) bookworm; urgency=medium
+
+  * add files
+  * add apt files
+  * fix typo
+  * fix typo
+  * fix typo again again again
+  * add  batman
+  * update batman to upstream
+  * upstream batman
+  * upstream batman
+  * update changelog
+  * upstream batman
+  * upstream batman
+  * upstream batman
+  * remove batman.list
+  * remove batman.list symlink
+  * upstream batman
+  * move phosh.service.d to /etc/systemd/system
+  * update phosh scaling
+  * upstream batman
+  * set CHARGESAVE to false by default as it doesn't work on lavender
+  * move over files from var/lib to usr/lib/droidian/device
+  * add wlr-randr as a dependency
   * disable suspend as its broken
+  * drop old repos and add kernel as dependency
 
- -- fakeshell <fakeshell@bardia.tech>  Sat, 25 Mar 2023 07:46:16 +0330
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Fri, 02 Jun 2023 21:57:09 -0400
 

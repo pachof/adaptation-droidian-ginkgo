@@ -1,0 +1,11 @@
+[Unit]
+Description=Get rid of noise during calls
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'setprop persist.audio.fluence.voicecall false'
+
+[Install]
+WantedBy=multi-user.target
