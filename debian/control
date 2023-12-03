@@ -1,4 +1,4 @@
-Source: adaptation-droidian-lavender
+Source: adaptation-droidian-ginkgo
 Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
@@ -7,17 +7,17 @@ Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-lavender
 Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-lavender.git
 
-Package: adaptation-droidian-lavender
+Package: adaptation-droidian-ginkgo
 Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
-         adaptation-lavender-configs,
+         adaptation-ginkgo-configs,
          ofono-config-ril-binder-single-sim-sim2,
          droidian-camera,
-Description: adapatation-lavender-meta
- lavender api28 adaptation metapackage
+Description: adapatation-ginkgo-meta
+ ginkgo api28-29 adaptation metapackage
 
-Package: adaptation-lavender-configs
+Package: adaptation-ginkgo-configs
 Architecture: all
 Depends: ${misc:Depends},
-Description: lavender's adaptation configs
+Description: ginkgo's adaptation configs
