@@ -36,7 +36,6 @@ jobs:
       - name: Install dependencies for package build
         run: |
           mk-build-deps --host-arch arm64 --install --tool='apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends --yes' debian/control
-          rm adaptation-droidian-lavender*.deb
           rm adaptation-droidian-ginkgo*.deb
           
       - name: Build package
