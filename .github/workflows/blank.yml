@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies for package build
         run: |
           mk-build-deps --host-arch arm64 --install --tool='apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends --yes' debian/control
-          rm adaptation-motorola-sofia*.deb
+          rm adaptation-droidian-lavender*.deb
           
       - name: Build package
         run: |
@@ -51,7 +51,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: adaptation-motorola-sofia
+          name: adaptation-droidian-lavender
           path: /out/*.deb
           if-no-files-found: error
           retention-days: 1
@@ -91,7 +91,7 @@ jobs:
       - name: Create latest release
         uses: softprops/action-gh-release@v1
         with:
-          files: out/adaptation-motorola-sofia/*.deb
+          files: out/adaptation-droidian-lavender/*.deb
           tag_name: latest
           draft: false
           prerelease: false
