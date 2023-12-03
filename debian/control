@@ -12,7 +12,6 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
          adaptation-lavender-configs,
-         linux-bootimage-xiaomi-lavender,
          ofono-config-ril-binder-single-sim-sim2,
          droidian-camera,
 Description: adapatation-lavender-meta
