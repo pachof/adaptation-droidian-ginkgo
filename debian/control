@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/pachof/adaptation-droidian-ginkgo.git
 Package: adaptation-droidian-ginkgo
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-hybris-api28-phone,
+         adaptation-hybris-api29-phone,
          adaptation-ginkgo-configs,
          ofono-config-ril-binder-single-sim-sim2,
          droidian-camera,
