@@ -1,5 +1,5 @@
 Source: adaptation-droidian-ginkgo
-Maintainer: Bardia Moshiri
+Maintainer: PaChOf
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
