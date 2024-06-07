@@ -1,0 +1,10 @@
+[Unit]
+Description=reset the touchscreen
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'echo 1 > /sys/devices/soc/c175000.i2c/i2c-1/1-0020/synaptics_tcm.0/synaptics_tcm/reset'
+
+[Install]
+WantedBy=multi-user.target
